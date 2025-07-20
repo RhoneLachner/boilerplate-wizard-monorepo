@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500&display=swap');
+
+/* -----------------------
+ ROOT VARIABLES
+ ------------------------*/
+:root {
+  /* Typography */
+  --font-base: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+  --font-size-xs: .75rem;
+  --font-size-s: .8rem;
+  --font-size-base: .9rem;
+  --font-size-l: 1rem;
+  --font-size-xl: 1.2rem;
+  --font-size-xxl: 1.5rem;
+  --font-size-xxxl: 1.75rem;
+
+  --font-weight-thin: 200;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --line-height: 1.6;
+  --letter-spacing-wide: 0.06em;
+  --letter-spacing-normal: 0.015em;
+  --letter-spacing-tight: -0.005em;
+
+  /* Colors */
+  --color-text: #ffffff;
+  --color-bg: #191919;
+  --color-link: #f8fafc;
+  --color-link-hover: #e0e0e0;
+  --color-border: #4d4d4d;
+  --color-border-light: rgba(81, 81, 81, 0.756);
+  --color-grey: #ababab;
+  --color-light-grey: #d1d1d1;
+  --color-grey-dark: #4b4b4b;
+  --color-highlight: rgba(255, 255, 255, 0.02);
+  --color-highlight-border: rgba(156, 156, 156, 0.08);
+
+  /* Transitions */
+  --transition-fast: all 0.3s ease;
+  --transition-slow: all 0.5s ease;
+
+  /* Layout */
+  --max-width: 1024px;
+  --padding-container: 2rem;
+  --padding-container-sm: 1rem;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------------------
+ BASE
+ ------------------------*/
+body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-thin);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background: var(--color-bg);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* -----------------------
+ LINKS & HEADINGS
+ ------------------------*/
+a {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-light);
+  color: var(--color-link);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+a:hover {
+  color: var(--color-link-hover);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-thin);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--color-text);
+}
+
+/* -----------------------
+ LAYOUT HELPERS
+ ------------------------*/
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--padding-container);
+}
+
+.main-content {
+  flex: 1;
+  padding: 3rem var(--padding-container);
+}
+
+/* -----------------------
+ NAVIGATION COMPONENT
+ ------------------------*/
+.navigation {
+  border-bottom: 1px solid var(--color-border-light);
+  padding: 1rem 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  font-size: var(--font-size-l);
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+.nav-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  position: relative;
+  width: 3.75rem;
+  padding: 0.2rem 0.5rem;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-thin);
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--color-text);
+  transition: color 0.25s ease-in-out;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.25s ease-in-out;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.nav-link.text-white::after {
+  width: 100%;
+}
+
+/* -----------------------
+ FOOTER
+ ------------------------*/
+.footer {
+  border-top: 1px solid var(--color-grey-dark);
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: center;
+}
+.footer-text {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-thin);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+/* -----------------------
+ BUTTONS
+ ------------------------*/
+.button-base {
+  padding: 0.5rem 1rem;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-thin);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  transition: var(--transition-slow);
+  cursor: pointer;
+  border: none;
+}
+.button-base:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.button-base:focus {
+  outline: none;
+}
+.button-primary {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+.button-primary:hover {
+  background: #e5e7eb;
+}
+.button-secondary {
+  background: var(--color-highlight);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+.button-secondary:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+.button-outline {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+.button-outline:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-color: var(--color-text);
+}
+
+.coffee-button {
+  border: solid 0.5px rgba(255, 255, 255, 0.715);
+  margin: auto;
+  padding: 0.5rem 1rem;
+  font-size: var(--font-size-base);
+}
+.coffee-button:hover {
+  border: solid 0.5px rgba(255, 255, 255, 0.715);
+  background-color: #6666665d;
+}
+
+/* -----------------------
+ PAGE SECTIONS
+ ------------------------*/
+.page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.page-section,
+.page-section-small {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.page-section {
+  gap: 1.25rem;
+}
+.page-section-small {
+  gap: 1.5rem;
+}
+.command-section {
+  width: 90%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+.command-section .list-item code {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-light-grey);
+}
+
+/* -----------------------
+ TYPOGRAPHY UTILITIES
+ ------------------------*/
+.heading-large {
+  font-size: var(--font-size-xxxl);
+  font-weight: var(--font-weight-thin);
+  letter-spacing: var(--letter-spacing-tight);
+  text-transform: uppercase;
+  color: var(--color-text);
+  line-height: 1.1;
+}
+.heading-small {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: var(--color-grey);
+}
+.text-base {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--letter-spacing-normal);
+  line-height: 1.5;
+}
+.text-white {
+  color: var(--color-text);
+}
+.text-grey {
+  color: var(--color-grey);
+}
+.text-light-grey {
+  color: var(--color-light-grey);
+}
+.text-centered {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* -----------------------
+ LISTS
+ ------------------------*/
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.list-spaced {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+.list-spaced-short {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0;
+}
+.list-item {
+  text-align: center;
+  color: var(--color-grey);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--letter-spacing-normal);
+}
+/* override for command lists */
+.list-spaced-short .list-item {
+  text-align: left;
+}
+/* -----------------------
+ IMAGE EFFECTS
+ ------------------------*/
+.logo {
+  margin: 0 auto;
+  width: 18rem;
+  object-fit: contain;
+}
+.atmospheric-container {
+  background: var(--color-highlight);
+  border: 1px solid var(--color-highlight-border);
+  padding: 2rem;
+}
+
+/* -----------------------
+ RESPONSIVE OVERRIDES
+ ------------------------*/
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--padding-container-sm);
+  }
+  .main-content {
+    padding: 2rem var(--padding-container-sm);
+  }
+  .page-container {
+    gap: 1.5rem;
+  }
+  .nav-links {
+    gap: 1rem;
+  }
+  .heading-large {
+    font-size: var(--font-size-xxl);
+    line-height: 1.2;
+  }
+  .logo {
+    width: 18rem;
+  }
+
+  /* -----------------------
+  HOME & ABOUT PAGE
+  ------------------------*/
+  .home-page,
+  .about-page {
+    padding: 2rem;
+  }
+  .home-page {
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  .about-page {
+    background-color: #f7f7f7;
+    color: #222;
+  }
+  .home-subtext,
+  .about-subtext {
+    font-size: var(--font-size-l);
+    margin-top: 0.5rem;
+  }
+  .home-subtext {
+    color: #666;
+  }
+  .about-subtext {
+    color: #555;
+  }
+}

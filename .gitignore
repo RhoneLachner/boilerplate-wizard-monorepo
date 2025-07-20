@@ -232,3 +232,6 @@ packages/*/.next/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+TO-DO.md

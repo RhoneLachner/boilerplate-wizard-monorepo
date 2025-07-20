@@ -1,0 +1,234 @@
+# =======================
+# Node.js & Package Managers
+# =======================
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Package manager lock files (using pnpm workspace)
+package-lock.json
+yarn.lock
+
+# pnpm
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =======================
+# Build Outputs
+# =======================
+
+# Production builds
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# Next.js build output
+.next/
+.next.config.js
+
+# Nuxt.js build / generate output
+.nuxt/
+
+# Gatsby files
+.cache/
+public/
+
+# Storybook build outputs
+.out/
+.storybook-out/
+
+# =======================
+# Environment Variables
+# =======================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# =======================
+# Testing & Coverage
+# =======================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Jest
+.jest/
+
+# =======================
+# IDE & Editor Files
+# =======================
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# =======================
+# OS Generated Files
+# =======================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =======================
+# Cache & Temporary Files
+# =======================
+
+# npm cache
+.npm/
+
+# ESLint cache
+.eslintcache
+
+# Stylelint cache
+.stylelintcache
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL history
+.node_repl_history
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+
+# =======================
+# Monorepo Specific
+# =======================
+
+# Package build artifacts
+packages/*/dist/
+packages/*/build/
+packages/*/lib/
+packages/*/.next/
+
+# Template testing directories
+/template-testing/
+/tmp/template-testing/
+
+# Package tarballs
+*.tgz
+
+# =======================
+# Optional Files
+# =======================
+
+# Optional npm cache directory
+.npm
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Output of 'npm pack'
+*.tgz
+
+# =======================
+# Misc
+# =======================
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*

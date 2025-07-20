@@ -1,0 +1,59 @@
+{
+  "name": "boilerplate-wizard",
+  "version": "1.1.1",
+  "description": "🧙‍♂️ A CLI tool to scaffold modern React and Next.js boilerplates with best practices",
+  "type": "module",
+  "bin": {
+    "boilerplate-wizard": "./bin/create.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "boilerplate",
+    "react",
+    "nextjs",
+    "typescript",
+    "vite",
+    "cli",
+    "scaffold",
+    "template",
+    "create",
+    "wizard"
+  ],
+  "author": {
+    "name": "Rhone Lachner",
+    "url": "https://github.com/rhonelachner",
+    "npm": "rhonezone"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo/issues"
+  },
+  "homepage": "https://github.com/rhonelachner/boilerplate-wizard-monorepo#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint bin/",
+    "format": "prettier --write bin/",
+    "prepublishOnly": "npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "8.53.0",
+    "prettier": "^3.1.0"
+  },
+  "preferGlobal": true
+}

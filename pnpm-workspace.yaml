@@ -1,0 +1,9 @@
+packages:
+# CLI tool for creating boilerplates
+- 'packages/cli'
+
+# Individual template packages for npm publishing
+- 'packages/react-js'
+- 'packages/react-ts'
+- 'packages/next-js'
+- 'packages/next-ts'

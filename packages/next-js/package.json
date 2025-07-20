@@ -1,0 +1,51 @@
+{
+    "name": "bp-wizard-create-next-js",
+    "version": "1.1.1",
+    "description": "🧙‍♂️ Next.js + JavaScript boilerplate with modern features and best practices",
+    "type": "module",
+    "bin": {
+        "bp-wizard-create-next-js": "./bin/create.js"
+    },
+    "files": [
+        "bin",
+        "template",
+        "README.md"
+    ],
+    "keywords": [
+        "nextjs",
+        "javascript",
+        "react",
+        "ssr",
+        "boilerplate",
+        "template",
+        "create",
+        "scaffold",
+        "fullstack"
+    ],
+    "author": {
+        "name": "Rhone Lachner",
+        "url": "https://github.com/rhonelachner",
+        "npm": "rhonezone"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo.git",
+        "directory": "packages/next-js"
+    },
+    "bugs": {
+        "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo/issues"
+    },
+    "homepage": "https://github.com/rhonelachner/boilerplate-wizard-monorepo#readme",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "prepublishOnly": "echo 'Publishing Next.js + JavaScript template package'"
+    },
+    "preferGlobal": true
+}

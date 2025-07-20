@@ -1,0 +1,51 @@
+{
+    "name": "bp-wizard-create-react-js",
+    "version": "1.1.4",
+    "description": "🧙‍♂️ React + JavaScript boilerplate with Vite, React Router, Vitest, and Playwright",
+    "type": "module",
+    "bin": {
+        "bp-wizard-create-react-js": "./bin/create.js"
+    },
+    "files": [
+        "bin",
+        "template",
+        "README.md"
+    ],
+    "keywords": [
+        "react",
+        "javascript",
+        "vite",
+        "boilerplate",
+        "template",
+        "create",
+        "scaffold",
+        "spa",
+        "frontend"
+    ],
+    "author": {
+        "name": "Rhone Lachner",
+        "url": "https://github.com/rhonelachner",
+        "npm": "rhonezone"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo.git",
+        "directory": "packages/react-js"
+    },
+    "bugs": {
+        "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo/issues"
+    },
+    "homepage": "https://github.com/rhonelachner/boilerplate-wizard-monorepo#readme",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "prepublishOnly": "echo 'Publishing React + JS template package'"
+    },
+    "preferGlobal": true
+}

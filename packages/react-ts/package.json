@@ -1,0 +1,51 @@
+{
+    "name": "bp-wizard-create-react-ts",
+    "version": "1.1.2",
+    "description": "🧙‍♂️ React + TypeScript boilerplate with Vite, React Router, Vitest, and Playwright",
+    "type": "module",
+    "bin": {
+        "bp-wizard-create-react-ts": "./bin/create.js"
+    },
+    "files": [
+        "bin",
+        "template",
+        "README.md"
+    ],
+    "keywords": [
+        "react",
+        "typescript",
+        "vite",
+        "boilerplate",
+        "template",
+        "create",
+        "scaffold",
+        "spa",
+        "frontend"
+    ],
+    "author": {
+        "name": "Rhone Lachner",
+        "url": "https://github.com/rhonelachner",
+        "npm": "rhonezone"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo.git",
+        "directory": "packages/react-ts"
+    },
+    "bugs": {
+        "url": "https://github.com/rhonelachner/boilerplate-wizard-monorepo/issues"
+    },
+    "homepage": "https://github.com/rhonelachner/boilerplate-wizard-monorepo#readme",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "prepublishOnly": "echo 'Publishing React + TypeScript template package'"
+    },
+    "preferGlobal": true
+}

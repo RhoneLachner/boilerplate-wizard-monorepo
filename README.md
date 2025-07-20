@@ -1,7 +1,7 @@
 # Boilerplate Wizard
 
-<p>
-  <img src="commitWizardLogo-blank-diamond.png" alt="BP Wizard Logo" width="250" />
+<p align="center">
+  <img src="commitWizardLogo-blank-diamond.png" alt="BP Wizard Logo" width="280" />
 </p>
 
 

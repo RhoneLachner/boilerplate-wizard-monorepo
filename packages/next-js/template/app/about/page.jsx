@@ -1,4 +1,7 @@
+// 🧙‍♂️💬 This entire page can be removed or customized to your liking!
+
 export default function About() {
+
   const features = [
     'Server-side rendering (SSR)',
     'Static site generation (SSG)',

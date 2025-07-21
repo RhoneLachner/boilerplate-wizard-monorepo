@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire file can be customized to your liking!
+
 import './globals.css'
 import Navigation from '../components/Navigation'
 

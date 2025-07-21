@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire file can be removed or customized to your liking!
+
 'use client'
 
 import Link from 'next/link';

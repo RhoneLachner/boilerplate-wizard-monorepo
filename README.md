@@ -5,7 +5,7 @@
 </p>
 
 
-A collection of **batteries‑included boilerplate generators** for modern web apps. Built to help developers scaffold production‑ready React and Next.js projects in seconds — with minimal configuration and zero cruft.
+A collection of **batteries‑included boilerplate generators** for modern web apps. Built to help developers scaffold production‑ready React and Next.js projects in seconds with minimal configuration.
 
 ## What's Inside
 

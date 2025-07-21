@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire file can be removed or customized to your liking!
+
 export default function Button({
   children,
   onClick,

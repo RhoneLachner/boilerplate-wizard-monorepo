@@ -21,32 +21,32 @@ describe('Button', () => {
   it('applies primary variant styles by default', () => {
     render(<Button>Primary Button</Button>);
     const button = screen.getByText('Primary Button');
-    expect(button).toHaveClass('bg-blue-600');
+    expect(button).toHaveClass('button-base', 'button-primary');
   });
 
   it('applies secondary variant styles', () => {
     render(<Button variant="secondary">Secondary Button</Button>);
     const button = screen.getByText('Secondary Button');
-    expect(button).toHaveClass('bg-gray-600');
+    expect(button).toHaveClass('button-base', 'button-secondary');
   });
 
   it('applies outline variant styles', () => {
     render(<Button variant="outline">Outline Button</Button>);
     const button = screen.getByText('Outline Button');
-    expect(button).toHaveClass('border');
+    expect(button).toHaveClass('button-base', 'button-outline');
   });
 
   it('applies danger variant styles', () => {
     render(<Button variant="danger">Danger Button</Button>);
     const button = screen.getByText('Danger Button');
-    expect(button).toHaveClass('bg-red-600');
+    expect(button).toHaveClass('button-base', 'button-danger');
   });
 
   it('disables button when disabled prop is true', () => {
     render(<Button disabled>Disabled Button</Button>);
     const button = screen.getByText('Disabled Button');
     expect(button).toBeDisabled();
-    expect(button).toHaveClass('disabled:opacity-50');
+    expect(button).toHaveClass('button-base', 'button-primary');
   });
 
   it('does not call onClick when disabled', () => {

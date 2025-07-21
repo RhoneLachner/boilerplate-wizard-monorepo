@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -9,13 +9,14 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/test/setup.js',
     css: true,
+    exclude: [
+      'tests/**/*.spec.js', // Exclude Playwright tests from Vitest
+      'node_modules/**',
+    ],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
-      exclude: [
-        'node_modules/',
-        'src/test/',
-      ],
+      exclude: ['node_modules/', 'src/test/', 'tests/'],
     },
   },
   server: {
@@ -26,4 +27,4 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   },
-})
+});

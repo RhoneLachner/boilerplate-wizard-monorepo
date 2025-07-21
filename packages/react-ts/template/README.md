@@ -5,15 +5,17 @@ A minimal, batteries‑included React + TypeScript boilerplate designed to get y
 
 ## What's Inside
 
-- **React 18.2.0** with TypeScript support
-- **TypeScript 5.0.2** with strict type checking
-- **Vite 5.0.0** with hot‑module replacement
-- **React Router 6.20.1** for client‑side routing
-- **ESLint 8.53.0** & **Prettier 3.1.0** for code quality and formatting
+- **React** with TypeScript support (latest versions)
+- **TypeScript** with strict type checking
+- **Vite** with hot‑module replacement
+- **React Router** for client‑side routing
+- **ESLint** & **Prettier** for code quality and formatting
 - **TypeScript ESLint** rules for enhanced type safety
-- **Vitest 1.0.4** for unit testing with TypeScript
-- **Playwright 1.40.1** for end‑to‑end testing
+- **Vitest** for unit testing with TypeScript
+- **Playwright** for end‑to‑end testing
 - Standard CSS setup with sensible defaults
+
+> All dependencies use the latest compatible versions at the time of project creation.
 
 ## Quick Start
 

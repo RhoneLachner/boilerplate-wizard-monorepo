@@ -4,14 +4,16 @@ A minimal, batteries‑included Next.js + TypeScript boilerplate designed to get
 
 ## What's Inside
 
-- **Next.js 14.0.3** with App Router
-- **TypeScript 5.8.3** with strict type checking
-- **React 18.2.0** with modern features and TypeScript support
+- **Next.js** with App Router (latest version)
+- **TypeScript** with strict type checking
+- **React** with modern features and TypeScript support
 - **Server-side rendering (SSR)** and **Static site generation (SSG)**
-- **ESLint 8.53.0** & **Prettier 3.1.0** for code quality and formatting
-- **Jest 29.7.0** for unit testing with TypeScript support
-- **Playwright 1.40.1** for end‑to‑end testing
+- **ESLint** & **Prettier** for code quality and formatting
+- **Jest** for unit testing with TypeScript support
+- **Playwright** for end‑to‑end testing
 - Standard CSS setup with sensible defaults
+
+> All dependencies use the latest compatible versions at the time of project creation.
 
 ## Quick Start
 
@@ -47,15 +49,15 @@ npm run dev
 
 ## 📖 Available Scripts
 
-| Command            | Description                                       |
-|--------------------|---------------------------------------------------|
-| `npm run dev`      | Starts local dev server with HMR (`Next.js`)      |
-| `npm run build`    | Builds the app for production with optimizations  |
-| `npm start`        | Starts the production server                      |
-| `npm test`         | Run unit tests with **Jest**                      |
-| `npm run test:e2e` | Run end‑to‑end tests with **Playwright**           |
-| `npm run lint`     | Lint all source files with **Next.js ESLint**     |
-| `npm run format`   | Auto‑format code with **Prettier**                |
+| Command            | Description                                      |
+| ------------------ | ------------------------------------------------ |
+| `npm run dev`      | Starts local dev server with HMR (`Next.js`)     |
+| `npm run build`    | Builds the app for production with optimizations |
+| `npm start`        | Starts the production server                     |
+| `npm test`         | Run unit tests with **Jest**                     |
+| `npm run test:e2e` | Run end‑to‑end tests with **Playwright**         |
+| `npm run lint`     | Lint all source files with **Next.js ESLint**    |
+| `npm run format`   | Auto‑format code with **Prettier**               |
 
 ---
 

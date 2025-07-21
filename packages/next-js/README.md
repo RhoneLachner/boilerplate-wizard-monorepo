@@ -4,13 +4,15 @@ A minimal, batteries‑included Next.js boilerplate designed to get you up and r
 
 ## What's Inside
 
-- **Next.js 14.0.3** with App Router
-- **React 18.2.0**
-- **Jest 29.7.0** for unit testing
-- **Playwright 1.40.1** for end‑to‑end testing
-- **ESLint 8.53.0** & **Prettier 3.1.0** for code quality and formatting
+- **Next.js** with App Router (latest version)
+- **React** (latest version)
+- **Jest** for unit testing
+- **Playwright** for end‑to‑end testing
+- **ESLint** & **Prettier** for code quality and formatting
 - Server-side rendering ready
 - Modern Next.js project structure
+
+> All dependencies use the latest compatible versions at the time of project creation.
 
 ## Quick Start
 
@@ -44,7 +46,7 @@ npm run dev
 
 ## Features
 
-- **Next.js 14** - Latest Next.js with App Router
+- **Next.js** - Latest Next.js with App Router
 - **Fast Refresh** - Instant feedback during development
 - **SSR Ready** - Server-side rendering out of the box
 - **Testing Setup** - Unit tests with Jest, E2E with Playwright

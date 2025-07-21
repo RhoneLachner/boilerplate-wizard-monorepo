@@ -95,7 +95,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public - removed because Vite/React projects need public directory for static assets
 
 # Storybook build outputs
 .out

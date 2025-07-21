@@ -4,13 +4,15 @@ A minimal, batteries‑included Next.js + JavaScript boilerplate designed to get
 
 ## What's Inside
 
-- **Next.js 14.0.3** with App Router
-- **React 18.2.0** with modern features
+- **Next.js** with App Router (latest version)
+- **React** with modern features
 - **Server-side rendering (SSR)** and **Static site generation (SSG)**
-- **ESLint 8.53.0** & **Prettier 3.1.0** for code quality and formatting
-- **Jest 29.7.0** for unit testing with Next.js support
-- **Playwright 1.40.1** for end‑to‑end testing
+- **ESLint** & **Prettier** for code quality and formatting
+- **Jest** for unit testing with Next.js support
+- **Playwright** for end‑to‑end testing
 - Standard CSS setup with sensible defaults
+
+> All dependencies use the latest compatible versions at the time of project creation.
 
 ## Quick Start
 

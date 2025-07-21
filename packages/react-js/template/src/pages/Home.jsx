@@ -1,19 +1,21 @@
 function Home() {
   const essentials = [
-    'React 18.2.0',
-    'Vite 5.0.0',
-    'React Router 6.20.1',
+    'React',
+    'Vite',
+    'React Router',
     'Standard CSS 3',
-    'Vitest 1.0.4',
-    'Playwright 1.40.1',
-    'ESLint 8.53.0',
-    'Prettier 3.1.0',
+    'Vitest',
+    'Playwright',
+    'ESLint',
+    'Prettier',
   ];
 
   return (
     <div className="page-container">
       <div className="page-section">
-        <h1 className="heading-large">BOILERPLATE WIZARD - React & JavaScript</h1>
+        <h1 className="heading-large">
+          BOILERPLATE WIZARD - React & JavaScript
+        </h1>
         <p className="text-base text-grey max-width-md">
           A minimal React foundation with essential tools
         </p>

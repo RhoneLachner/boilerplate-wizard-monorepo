@@ -4,14 +4,16 @@ A minimal, batteries‑included Next.js + TypeScript boilerplate designed to get
 
 ## What's Inside
 
-- **Next.js 14.0.3** with App Router
-- **React 18.2.0** with TypeScript
-- **TypeScript 5.8.3** configuration optimized for Next.js
-- **Jest 29.7.0** for unit testing
-- **Playwright 1.40.1** for end‑to‑end testing
-- **ESLint 8.53.0** & **Prettier 3.1.0** for code quality and formatting
+- **Next.js** with App Router (latest version)
+- **React** with TypeScript (latest versions)
+- **TypeScript** configuration optimized for Next.js
+- **Jest** for unit testing
+- **Playwright** for end‑to‑end testing
+- **ESLint** & **Prettier** for code quality and formatting
 - Server-side rendering ready
 - Modern Next.js project structure
+
+> All dependencies use the latest compatible versions at the time of project creation.
 
 ## Quick Start
 
@@ -45,7 +47,7 @@ npm run dev
 
 ## Features
 
-- **Next.js 14** - Latest Next.js with App Router
+- **Next.js** - Latest Next.js with App Router
 - **TypeScript** - Full TypeScript support with proper configuration
 - **Fast Refresh** - Instant feedback during development
 - **SSR Ready** - Server-side rendering out of the box

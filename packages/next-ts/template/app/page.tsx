@@ -1,16 +1,17 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function Home(): React.JSX.Element {
     const essentials: string[] = [
-        'Next.js 14.0.3',
-        'TypeScript 5.0.2',
-        'React 18.2.0',
+        'Next.js',
+        'TypeScript',
+        'React',
         'App Router',
         'Standard CSS 3',
         'Jest Testing',
         'Playwright E2E',
-        'ESLint 8.53.0',
-        'Prettier 3.1.0',
+        'ESLint',
+        'Prettier',
     ];
 
     return (
@@ -23,10 +24,12 @@ export default function Home(): React.JSX.Element {
                     A modern Next.js + TypeScript foundation with essential
                     tools
                 </p>
-                <img
-                    src="/BPWizardLogo-react-vector.png"
+                <Image
+                    src="/BPWizardLogo-nextjs-vector.png"
                     alt="Boilerplate Wizard Logo"
                     className="logo"
+                    width={200}
+                    height={200}
                 />
             </div>
 

@@ -4,13 +4,15 @@ A minimal, batteries‑included React boilerplate designed to get you up and run
 
 ## What's Inside
 
-- **React 18.2.0**
-- **Vite 5.0.0** with hot‑module replacement
-- **React Router 6.20.1** for client‑side routing
-- **ESLint 8.53.0** & **Prettier 3.1.0** for code quality and formatting
-- **Vitest 1.0.4** for unit testing
-- **Playwright 1.40.1** for end‑to‑end testing
+- **React** (latest version)
+- **Vite** with hot‑module replacement
+- **React Router** for client‑side routing
+- **ESLint** & **Prettier** for code quality and formatting
+- **Vitest** for unit testing
+- **Playwright** for end‑to‑end testing
 - Standard CSS setup with sensible defaults
+
+> All dependencies use the latest compatible versions at the time of project creation.
 
 ## Quick Start
 

@@ -1,3 +1,5 @@
+<!-- 🧙‍♂️💬 This entire README can be customized to your liking! -->
+
 # BP Wizard Next.js + JavaScript
 
 A minimal, batteries‑included Next.js + JavaScript boilerplate designed to get you up and running in seconds.

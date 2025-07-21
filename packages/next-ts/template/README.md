@@ -1,3 +1,5 @@
+<!-- 🧙‍♂️💬 This entire README can be customized to your liking! -->
+
 # BP Wizard Next.js + TypeScript
 
 A minimal, batteries‑included Next.js + TypeScript boilerplate designed to get you up and running in seconds.

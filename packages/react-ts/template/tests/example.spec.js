@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 All of these example tests can be removed or customized to your liking!
+
 import { test, expect } from '@playwright/test';
 
 test.describe('React TypeScript Boilerplate App', () => {

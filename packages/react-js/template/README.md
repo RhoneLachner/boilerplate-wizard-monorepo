@@ -1,3 +1,5 @@
+<!-- 🧙‍♂️💬 This entire README can be customized to your liking! -->
+
 # BP Wizard React JS
 
 A minimal, batteries‑included React boilerplate designed to get you up and running in seconds.

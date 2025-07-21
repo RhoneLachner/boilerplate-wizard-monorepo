@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire page can be removed or customized to your liking!
+
 import React from 'react';
 
 interface Command {

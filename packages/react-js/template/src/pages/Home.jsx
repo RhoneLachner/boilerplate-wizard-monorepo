@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire page can be customized to your liking!
+
 function Home() {
   const essentials = [
     'React',

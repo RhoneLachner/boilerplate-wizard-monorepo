@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire file can be removed or customized to your liking!
+
 import { ReactNode, ButtonHTMLAttributes } from 'react';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire page can be removed or customized to your liking!
+
 import React from 'react';
 
 interface Command {
@@ -19,18 +21,42 @@ function About(): React.JSX.Element {
   ];
 
   const starterCommands: Command[] = [
-    { command: 'npm install', description: 'Installs project dependencies from package.json' },
-    { command: 'npm run dev', description: 'Starts the development server with hot module replacement' },
+    {
+      command: 'npm install',
+      description: 'Installs project dependencies from package.json',
+    },
+    {
+      command: 'npm run dev',
+      description: 'Starts the development server with hot module replacement',
+    },
   ];
 
   const devCommands: Command[] = [
-    { command: 'npm run build', description: 'Bundles the app for production with TypeScript compilation' },
-    { command: 'npm run preview', description: 'Serves the production build locally for preview' },
+    {
+      command: 'npm run build',
+      description: 'Bundles the app for production with TypeScript compilation',
+    },
+    {
+      command: 'npm run preview',
+      description: 'Serves the production build locally for preview',
+    },
     { command: 'npm test', description: 'Runs unit tests using Vitest' },
-    { command: 'npm run test:e2e', description: 'Executes end-to-end tests with Playwright' },
-    { command: 'npm run lint', description: 'Lints the entire codebase with ESLint and TypeScript' },
-    { command: 'npm run format', description: 'Applies code formatting using Prettier' },
-    { command: 'npm run type-check', description: 'Checks TypeScript types without emitting files' },
+    {
+      command: 'npm run test:e2e',
+      description: 'Executes end-to-end tests with Playwright',
+    },
+    {
+      command: 'npm run lint',
+      description: 'Lints the entire codebase with ESLint and TypeScript',
+    },
+    {
+      command: 'npm run format',
+      description: 'Applies code formatting using Prettier',
+    },
+    {
+      command: 'npm run type-check',
+      description: 'Checks TypeScript types without emitting files',
+    },
   ];
 
   return (
@@ -40,7 +66,9 @@ function About(): React.JSX.Element {
       </div>
 
       <div className="atmospheric-container">
-        <h2 className="heading-small text-light-grey text-centered">FEATURES</h2>
+        <h2 className="heading-small text-light-grey text-centered">
+          FEATURES
+        </h2>
         <ul className="list-spaced max-width-sm">
           {features.map((feature) => (
             <li key={feature} className="list-item">

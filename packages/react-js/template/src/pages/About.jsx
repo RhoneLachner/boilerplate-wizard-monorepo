@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire page can be removed or customized to your liking!
+
 import React from 'react';
 
 function About() {
@@ -13,17 +15,35 @@ function About() {
   ];
 
   const starterCommands = [
-    { command: 'npm install', description: 'Installs project dependencies from package.json' },
-    { command: 'npm run dev', description: 'Starts the development server with hot module replacement' },
+    {
+      command: 'npm install',
+      description: 'Installs project dependencies from package.json',
+    },
+    {
+      command: 'npm run dev',
+      description: 'Starts the development server with hot module replacement',
+    },
   ];
 
   const devCommands = [
     { command: 'npm run build', description: 'Bundles the app for production' },
-    { command: 'npm run preview', description: 'Serves the production build locally for preview' },
+    {
+      command: 'npm run preview',
+      description: 'Serves the production build locally for preview',
+    },
     { command: 'npm test', description: 'Runs unit tests using Vitest' },
-    { command: 'npm run test:e2e', description: 'Executes end-to-end tests with Playwright' },
-    { command: 'npm run lint', description: 'Lints the entire codebase with ESLint' },
-    { command: 'npm run format', description: 'Applies code formatting using Prettier' },
+    {
+      command: 'npm run test:e2e',
+      description: 'Executes end-to-end tests with Playwright',
+    },
+    {
+      command: 'npm run lint',
+      description: 'Lints the entire codebase with ESLint',
+    },
+    {
+      command: 'npm run format',
+      description: 'Applies code formatting using Prettier',
+    },
   ];
 
   return (
@@ -33,7 +53,9 @@ function About() {
       </div>
 
       <div className="atmospheric-container">
-        <h2 className="heading-small text-light-grey text-centered">FEATURES</h2>
+        <h2 className="heading-small text-light-grey text-centered">
+          FEATURES
+        </h2>
         <ul className="list-spaced max-width-sm">
           {features.map((feature) => (
             <li key={feature} className="list-item">

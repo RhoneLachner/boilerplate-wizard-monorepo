@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 All of these example tests can be removed or customized to your liking!
+
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Home from '../app/page';

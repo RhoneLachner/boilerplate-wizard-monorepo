@@ -1,4 +1,6 @@
 
+<!-- 🧙‍♂️💬 This entire README can be customized to your liking! -->
+
 # BP Wizard React + TypeScript
 
 A minimal, batteries‑included React + TypeScript boilerplate designed to get you up and running in seconds.

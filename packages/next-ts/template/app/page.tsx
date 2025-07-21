@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire page can be customized to your liking!
+
 import React from 'react';
 import Image from 'next/image';
 

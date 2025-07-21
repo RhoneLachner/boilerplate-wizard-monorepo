@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire file can be removed or customized to your liking!
+
 import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {

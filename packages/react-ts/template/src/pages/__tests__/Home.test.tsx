@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 All of these example tests can be removed or customized to your liking!
+
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Home from '../Home';

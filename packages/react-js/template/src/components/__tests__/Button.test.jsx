@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 All of these example tests can be removed or customized to your liking!
+
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Button from '../Button';
@@ -49,7 +51,11 @@ describe('Button', () => {
 
   it('does not call onClick when disabled', () => {
     const handleClick = vi.fn();
-    render(<Button onClick={handleClick} disabled>Disabled Button</Button>);
+    render(
+      <Button onClick={handleClick} disabled>
+        Disabled Button
+      </Button>
+    );
 
     fireEvent.click(screen.getByText('Disabled Button'));
     expect(handleClick).not.toHaveBeenCalled();

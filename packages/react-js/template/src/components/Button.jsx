@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire file can be removed or customized to your liking!
+
 function Button({
   children,
   onClick,

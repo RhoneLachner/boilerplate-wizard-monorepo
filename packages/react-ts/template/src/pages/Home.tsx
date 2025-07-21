@@ -1,3 +1,5 @@
+// 🧙‍♂️💬 This entire page can be customized to your liking!
+
 import React from 'react';
 
 function Home(): React.JSX.Element {

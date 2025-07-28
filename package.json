@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "typescript": "^4.x",
-    "eslint": "^8.x",
+    "eslint": "^9.x",
     "prettier": "^3.x"
   }
 }

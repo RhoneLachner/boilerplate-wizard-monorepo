@@ -24,7 +24,7 @@
     "version:major": "pnpm -r exec npm version major"
   },
   "devDependencies": {
-    "typescript": "^4.x",
+    "typescript": "^5.x",
     "eslint": "^8.x",
     "prettier": "^3.x"
   }
